@@ -12,3 +12,4 @@ function chooseBestSum(t, k, ls){
         .map(item => item.reduce((a,b) => a + b), 0)
         .filter(item => item <= t)
         .sort((a,b) => b-a)[0] || null
+}
